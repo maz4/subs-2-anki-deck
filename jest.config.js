@@ -14,4 +14,5 @@ module.exports = {
   moduleDirectories: ['node_modules', 'release/app/node_modules'],
   testPathIgnorePatterns: ['release/app/dist'],
   setupFiles: ['./.erb/scripts/check-build-exists.ts'],
+  setupFilesAfterEnv: ['./src/setupTests.ts'],
 };
